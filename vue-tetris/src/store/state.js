@@ -1,0 +1,43 @@
+import { getNextType } from "@/unit";
+import { isFocus } from "@/unit/";
+import { blankMatrix } from "@/unit/const";
+
+export default {
+  showDialog: false,
+  dialogType: "",
+  token: null,
+  nftDict: {},
+  userInfo: {},
+  gameInfo: {},
+  login: false,
+  timer: null,
+  music: true,
+  pause: false,
+  matrix: blankMatrix,
+  next: getNextType(),
+  cur: null,
+  speedStart: 1,
+  speedRun: 1,
+  startLines: 0,
+  clearLines: 0,
+  points: 0,
+  max: 0,
+  reset: false,
+  drop: false,
+  keyboard: {
+    drop: false,
+    down: false,
+    left: false,
+    right: false,
+    rotate: false,
+    reset: false,
+    music: false,
+    pause: false,
+  },
+  lock: false,
+  focus: isFocus(),
+  paytokens: [],
+  config: {},
+  reward: 0,
+  status: "end",
+};

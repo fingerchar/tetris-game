@@ -1,0 +1,71 @@
+
+.tetris-dialog{
+  background: @dialogBgColor;
+  border-radius: 10px;
+}
+.tetris-dialog-header{
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  .left{
+    font-size: 32px;
+    font-weight: bold;
+    flex: 1;
+  }
+  .right{
+    width: 40px;
+    height: 40px;
+    .close-img{
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+}
+.tetris-dialog-body{
+  color: #fff;
+  text-align: center;
+  .tip{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .count{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 20px;
+    &.red{
+      color: #b23b38;
+    }
+
+  }
+}
+
+@keyframes window-open
+{
+  0% {
+    bottom:-10.5rem;
+  }
+  100% {
+    bottom:0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .tetris-dialog{
+    position: absolute;
+    max-height: 80%;
+    overflow-y: scroll !important;
+    bottom: 0;
+    margin: 0;
+    width: 100% !important;
+    width: 50%;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+  }
+}
+
+

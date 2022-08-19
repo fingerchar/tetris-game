@@ -1,0 +1,157 @@
+{
+  "lan": [
+    "cn",
+    "en"
+  ],
+  "default": "cn",
+  "data": {
+    "title": {
+      "cn": "俄罗斯方块",
+      "en": "T E T R I S"
+    },
+    "github": {
+      "cn": "GitHub",
+      "en": "GitHub"
+    },
+    "linkTitle": {
+      "cn": "查看源代码",
+      "en": "View data source"
+    },
+    "QRCode": {
+      "cn": "二维码",
+      "en": "QR code"
+    },
+    "QRNotice": {
+      "cn": "扫一扫用手机玩",
+      "en": "Scan QR code to play with a mobile phone"
+    },
+    "titleCenter": {
+      "cn": "俄罗斯方块<br />TETRIS",
+      "en": "TETRIS"
+    },
+    "point": {
+      "cn": "得分",
+      "en": "Point"
+    },
+    "highestScore": {
+      "cn": "最高分",
+      "en": "Max"
+    },
+    "lastRound": {
+      "cn": "上轮得分",
+      "en": "Last Round"
+    },
+    "cleans": {
+      "cn": "消除行",
+      "en": "Cleans"
+    },
+    "level": {
+      "cn": "级别",
+      "en": "Level"
+    },
+    "startLine": {
+      "cn": "起始行",
+      "en": "Start Line"
+    },
+    "next": {
+      "cn": "下一个",
+      "en": "Next"
+    },
+    "pause": {
+      "cn": "暂停",
+      "en": "Pause"
+    },
+    "sound": {
+      "cn": "音效",
+      "en": "Sound"
+    },
+    "info": {
+      "cn": "信息",
+      "en": "Info"
+    },
+    "reset": {
+      "cn": "重玩",
+      "en": "Reset"
+    },
+    "rotation": {
+      "cn": "旋转",
+      "en": "Rotation"
+    },
+    "left": {
+      "cn": "左移",
+      "en": "Left"
+    },
+    "right": {
+      "cn": "右移",
+      "en": "Right"
+    },
+    "down": {
+      "cn": "下移",
+      "en": "Down"
+    },
+    "drop": {
+      "cn": "掉落",
+      "en": "Drop"
+    },
+    "confirm": {
+      "cn": "确定",
+      "en": "Confirm"
+    },
+    "cancel": {
+      "cn": "取消",
+      "en": "Cancel"
+    },
+    "close": {
+      "cn": "关闭",
+      "en": "Close"
+    },
+    "connect": {
+      "cn": "FingerNFT授权",
+      "en": "Go to FingerNFT"
+    },
+    "connectTip": {
+      "cn": "前往 FingerNFT 授权登录!",
+      "en": "Go to fingernft to authorize login!"
+    },
+    "startTip": {
+      "cn": "开始游戏需要消耗代币：",
+      "en": "Token required to start the game: "
+    },
+    "reward": {
+      "cn": "奖励",
+      "en": "Reward"
+    },
+    "closeTip": {
+      "cn": "本次游戏得分",
+      "en": "The Point of this game"
+    },
+    "logoutTip": {
+      "cn": "确定要退出游戏?",
+      "en": "Are you sure you want to logout?"
+    },
+    "logout": {
+      "cn": "退出",
+      "en": "Logout"
+    },
+    "infoTitle": {
+      "cn": "信息",
+      "en": "Info"
+    },
+    "balance": {
+      "cn": "余额",
+      "en": "Balance"
+    },
+    "frozen": {
+      "cn": "冻结",
+      "en": "Frozen"
+    },
+    "useNftTip": {
+      "cn": "余额不足，无法使用该道具!",
+      "en": "Insufficient balance, unable to use this item!"
+    },
+    "getSymbol": {
+      "cn": "我要获取",
+      "en": "I want to get "
+    }
+  }
+}
